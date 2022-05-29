@@ -75,27 +75,6 @@ const PhotosScreen = ({ navigation }) => {
 
     const fileName = generateString(5) + ".png";
     Upload(result, fileName);
-
-    // //Uploading image to S3 bucket
-    // RNS3.put(
-    //   {
-    //     //file details
-    //     uri: result.uri,
-    //     name: fileName,
-    //     type: "image/png",
-    //   },
-    //   {
-    //     //credentials
-    //     keyPrefix: "uploads/",
-    //     bucket: "garvita-bkt",
-    //     region: "ap-south-1",
-    //     accessKey: "AKIAQIB6YF6665TN4BHF",
-    //     secretKey: "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",
-    //     successActionStatus: 201,
-    //   }
-    // ).then((response) => {
-    //   console.log("Uploaded Image Successfully ");
-    //   console.log(response);
   };
 
   var id = [];

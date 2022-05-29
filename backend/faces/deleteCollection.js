@@ -1,8 +1,6 @@
 import { DeleteCollectionCommand } from "@aws-sdk/client-rekognition";
 import { RekognitionClient } from "@aws-sdk/client-rekognition";
 
-// Name the collection
-
 const deleteCollection = async (collection_name) => {
   // Set the AWS Region.
   const REGION = "ap-south-1"; //e.g. "us-east-1"
