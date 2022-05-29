@@ -10,13 +10,13 @@ const REGION = "ap-south-1";
 const rekogClient = new RekognitionClient({ region: REGION });
 
 var params = {
-  Bucket: "garvita-bkt" /* required */,
-  Prefix: "uploads/",
+  Bucket: "" /* required */,
+  Prefix: "",
 };
 
 const s3 = new AWS.S3({
-  accessKeyId: "AKIAQIB6YF6665TN4BHF",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
 });
 //created the collection (ref: createCollection.js)
 

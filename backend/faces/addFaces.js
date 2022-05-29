@@ -6,33 +6,18 @@ import {
   CreateCollectionCommand,
 } from "@aws-sdk/client-rekognition";
 
-// const REGION = "ap-south-1";
-// const rekogClient = new RekognitionClient({ region: REGION });
-
-// var params = {
-//   Bucket: "garvita-bkt" /* required */,
-//   Prefix: "uploads/",
-// };
-
-// const s3 = new AWS.S3({
-//   accessKeyId: "AKIAQIB6YF6665TN4BHF",
-//   secretAccessKey: "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",
-// });
-//created the collection (ref: createCollection.js)
-// const collection_name = "EngageGarvita";
-
 const addToCollection = async (collection_name) => {
   const REGION = "ap-south-1";
   const rekogClient = new RekognitionClient({ region: REGION });
 
   var params = {
-    Bucket: "garvita-bkt" /* required */,
-    Prefix: "uploads/",
+    Bucket: "" /* required */,
+    Prefix: "",
   };
 
   const s3 = new AWS.S3({
-    accessKeyId: "AKIAQIB6YF66U7YIXKOW",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
   });
   const myPromise = new Promise((resolve, reject) => {
     s3.listObjects(params, function (err, data) {

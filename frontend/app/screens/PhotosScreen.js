@@ -20,15 +20,15 @@ import AWS from "aws-sdk";
 import Modal from "react-native-modal";
 
 AWS.config.update({
-  accessKeyId: "AKIAQIB6YF66U7YIXKOW",
-  secretAccessKey: "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",
-  region: "ap-south-1",
+  accessKeyId: "",
+  secretAccessKey: "",
+  region: "",
 });
 const s3 = new AWS.S3();
 const params = {
-  Bucket: "garvita-bkt",
+  Bucket: "",
   Delimiter: "",
-  Prefix: "uploads/",
+  Prefix: "",
 };
 
 const PhotosScreen = ({ navigation }) => {
@@ -145,11 +145,11 @@ const PhotosScreen = ({ navigation }) => {
       },
       {
         //credentials
-        keyPrefix: "uploads/",
-        bucket: "garvita-bkt",
+        keyPrefix: "",
+        bucket: "",
         region: "ap-south-1",
-        accessKey: "AKIAQIB6YF66U7YIXKOW",
-        secretKey: "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",
+        accessKey: "",
+        secretKey: "",
         successActionStatus: 201,
       }
     ).then((response) => {
