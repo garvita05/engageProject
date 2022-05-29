@@ -2,6 +2,7 @@
 
 
 /*MASTER BRANCH, CODE IN MASTER BRANCH*/
+/* VIDEO DEMO LINK IN THE END*/
 
 This is a full Stack Photos Application using Amazon Rekognition,Node.js,Express,React Native and  AWS S3 bucket where you can upload your photos to the s3 bucket from the image gallery of your phone and then when you click on a particular image, you get the matching faces for that image using the Amazon rekognition face Api.
 
@@ -34,7 +35,8 @@ Open the camera app on your iphone, android phone and scan the bar code shown on
 
 For configuring android ios issues, refer https://stackoverflow.com/questions/44270504/react-native-ios-and-android-folders-not-present
 
-I
+VIDEO DEMO LINK VIDEO DEMO LINK
+https://drive.google.com/file/d/1Jam0ERVpGyvjO3PW5ak_awGe0ND71k91/view?usp=sharing
 
 
 
