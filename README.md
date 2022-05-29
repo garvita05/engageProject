@@ -8,3 +8,8 @@ NODE.js and EXPRESS is used for backend.
 AWS S3 bucket is used for storage server.
 
 
+LOGIC:
+
+The user uploads the image from his/her gallery to the S3 bucket using expo image picker and react native aws3 package. The images gets uploaded to the S3 bucket of the corresponding owner.Node accesses those images from the bucket and then adds them to a new collection which is stored on server side containers by the amzon rekogniton services.
+
+
