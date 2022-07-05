@@ -35,8 +35,6 @@ Open the camera app on your iphone, android phone and scan the bar code shown on
 
 For configuring android ios issues, refer https://stackoverflow.com/questions/44270504/react-native-ios-and-android-folders-not-present
 
-VIDEO DEMO LINK VIDEO DEMO LINK
-https://drive.google.com/file/d/1Jam0ERVpGyvjO3PW5ak_awGe0ND71k91/view?usp=sharing
 
 
 
