@@ -17,7 +17,7 @@ Getting Started
 
 To get started with this project, follow these steps:
 
-    Clone the repository: git clone https://github.com/your-username/face-recognition-app.git
+    Clone the repository: git clone https://github.com/garvita05/engageProject.git
     Install dependencies: npm install
     Configure AWS credentials in the project.
     Start the application: npm start
